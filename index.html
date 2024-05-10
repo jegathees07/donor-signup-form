@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="row">
+    <div id="row_1">
+        <div class="main-form-heading">
+            <h1>Sign up</h1>
+        </div>
+        <form action="" id="user-register-form" class="main-form">
+            <div class="form-content">
+                <label class="form-label" for="name">Full name:</label>
+                <input name="name" id="name" type="text">
+            </div>
+            <div class="form-content">
+                <label class="form-label" for="email">Email:</label>
+                <input name="email" id="email" type="email">
+        
+            </div>
+            <div class="form-content">
+                <label class="form-label" for="mobile">Mobile No:</label>
+                <input name="mobile" id="mobile" type="number">
+                
+            </div>
+            <div class="form-content">
+                <label class="form-label" for="password">Password:</label>
+                <input name="password" id="password" type="password">
+                
+            </div>
+            <div class="form-content">
+                <label class="form-label" for="confirm">Confirm password:</label>
+                <input name="confirm" id="confirm" type="password">
+                
+            </div>
+            <div class="form-content">
+                <button type="submit" id="btn-sbumit">Sign Up</button>
+            </div>
+            <div class="form-content">
+                <b>Already have a account?</b><span><a href="#" onclick="openLoginForm()">Login</a></span>
+            </div>
+        </form>
+    </div>
+    <div id="row_2">
+        <div class="main-form-heading">
+            <h1>Login</h1>
+        </div>
+        <form action="" class="main-form">
+            <div class="form-content">
+                <label for="mobile-1">Mobile No:</label>
+                <input name="mobile-1" id="mobile-1" type="number">
+            </div>
+            <div class="form-content">
+                <label for="otp">OTP</label>
+                <input name="otp" id="otp" type="number">
+            </div>
+            <div class="form-content">
+                <button type="submit" value="submit">Login</button>
+            </div>
+            <div class="form-content">
+                <b>Create a  account?</b><span><a href="#" onclick="openSignupForm()">Sign up</a></span>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
